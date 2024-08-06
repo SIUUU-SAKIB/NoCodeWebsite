@@ -1,0 +1,81 @@
+.section-7 {
+    height: 72rem;
+
+    background: url(../img/contact.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.section-7::before {
+    z-index: 10;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #2e18934b;
+    z-index: 1;
+}
+
+.section-7 .text-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    color: white;
+    margin-left: 5rem;
+}.section-7 .text-div .main-div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+}
+.section-7 .text-div .main-div .main-sub{
+    font-size: 2.2rem;
+}
+.section-7 .text-div h3 {
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 600;
+}
+.section-7 .text-div .main-div svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.section-7 .text-div .address, .mail, .phone {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+gap: 1rem;
+margin-top: 2rem;
+}
+.section-7 .text-div .address, .mail, .phone p{
+    font-size: 1.6rem;
+}
+
+/* form */
+.payment-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.payment{
+    width: 47rem;
+    height: 57rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    
+    
+}

@@ -1,0 +1,64 @@
+.section-6 {
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    background: url("../img/cta.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.section-6::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #2e18934b;
+    z-index: 1;
+}
+.section-6 .text-div {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.section-6 .text-div h2 {
+    font-size: 5.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.section-6 .text-div p {
+    width: 40rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.section-6 .btns {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    z-index: 10;
+}
+.section-6 .btns button {
+    width: 21rem;
+    height: 7rem;
+    background-color: #25dac5;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.section-6 .btns button:hover {
+    background-color: #1fbfac;
+}

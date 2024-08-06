@@ -1,0 +1,90 @@
+@import url(../CSS/components/content.css);
+@import url(../CSS/components/CTA.css);
+@import url(../CSS/components/features.css);
+@import url(../CSS/components/form.css);
+@import url(../CSS/components/hero.css);
+@import url(../CSS/components/testimonial.css);
+@import url(../CSS/components/pricing.css);
+:root {
+    --white: #fff;
+    --secondary: #482be7;
+    --background: #2f1893;
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    line-height: 1.3;
+    font-family: "DM Sans", sans-serif;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.846);
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 5rem;
+}
+.section {
+    margin-top: 5rem;
+}
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+    html {
+        font-size: 30%;
+    }
+}
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+    html {
+        font-size: 50%;
+    }
+}
+
+/* md  */
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+/* lg  */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+    .section {
+        margin-top: 10rem;
+    }
+}
+
+/* xl  */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+/* 2xl  */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1536 px;
+    }
+}
