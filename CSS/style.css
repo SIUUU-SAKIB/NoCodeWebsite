@@ -5,6 +5,7 @@
 @import url(../CSS/components/hero.css);
 @import url(../CSS/components/testimonial.css);
 @import url(../CSS/components/pricing.css);
+@import url(../CSS/components/card.css);
 :root {
     --white: #fff;
     --secondary: #482be7;
@@ -55,8 +56,8 @@ body {
     .container {
         max-width: 640px;
     }
-    html {
-        font-size: 50%;
+    html{
+        font-size: 45%;
     }
 }
 
@@ -64,6 +65,9 @@ body {
 @media (max-width: 768px) {
     .container {
         max-width: 768px;
+    }
+    html{
+        font-size: 50%;
     }
 }
 /* lg  */
